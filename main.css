@@ -1,0 +1,29 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #ffeead;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container > div {
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  font-size: 1em; 
+  color: #ffffff;
+}
+
+.container > div:nth-child(1n) {
+  background-color: rgb(255, 0, 149);
+}
+.container > div:nth-child(2n) {
+  background-color: rgb(106, 211, 252);
+}
+.container > div:nth-child(3n) {
+  background-color: rgb(3, 122, 126);
+}
+.container > div:nth-child(4n) {
+  background-color: rgb(150, 2, 88);
+}

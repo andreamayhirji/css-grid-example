@@ -1,0 +1,37 @@
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px auto 40px;
+  grid-gap: 3px;
+  grid-template-areas: 
+    "n n n n n n n n n n n m"
+    "c1 c1 c1 c1 c2 c2 c2 c2 c3 c3 c3 c3"
+    "f f f f f f f f f f f f";
+}
+
+.header {
+  grid-area: n;
+}
+
+.menu {
+  grid-area: m;
+}
+
+.content1 {
+  grid-area: c1;
+}
+
+.content2 {
+  grid-area: c2;
+}
+.content3 {
+  grid-area: c3;
+}
+
+.footer { 
+  grid-area: f;
+}
+
+ 
